@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Flexbox">
+    <meta name="author" content="Reza">
+    <link rel="icon" href="favicon/favicon.ico">
+
+    <title>Flex</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/aos.css" rel="stylesheet"> -->
+    
+    <!-- <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet"> -->
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<section class="flex">
+    <div class="container">
+        <div class="item item-one"><p>one</p></div>
+        <div class="item item-twoo"><p>two</p></div>
+        <div class="item item-three"><p>three</p></div>
+        <div class="item item-four"><p>four</p></div>
+        <div class="item item-vijf"><p>vijf</p></div>
+    </div>
+</section>
+
+<section class="flex2">
+    <div class="container">
+        <div class="item item-one">
+            <div class="flex-inner">
+                <div class="inner-item"><p>een</p></div>
+                <div class="inner-item"><p>twee</p></div>
+                <div class="inner-item"><p>drie</p></div>
+                <div class="inner-item"><p>vier</p></div>
+                <div class="inner-item"><p>drie</p></div>
+            </div>
+        </div>
+        <div class="item item-twoo"><p>two</p></div>
+    </div>
+</section>
+
+<section class="button">
+    <div class="text">
+        <p id="show">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="button-test">
+        <button class="button button-click">Klik mij</button>
+    </div>
+</section>
+
+   
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/partjs/jquery.js"></script>
+
+    <!-- <script src="js/partjs/menu.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="js/partjs/bootstrap.min.js"></script> -->
+    
+    <!-- <script src="js/partjs/slick.js"></script> -->
+    <!-- <script src="js/partjs/aos.js"></script>
+    <script src="js/partjs/map.js"></script>
+    <script src="js/partjs/smooth-scroll.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAANEHa2Lq2RnKbD-jJ2VAvGOdQPl94ppY"></script> -->
+
+    <!-- <script src="js/partjs/carbonAd.js"></script> -->
+    <!-- <script src="js/partjs/githubIcons.js"></script> -->
+
+    <script>
+        jQuery(document).ready(function($) {
+
+    $("button").click(function(){
+    $("#show").show(500,"swing");
+    });
+
+
+    });
+    </script>
+    
+   
+</body>
+
+</html>
